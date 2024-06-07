@@ -5,8 +5,6 @@ import winreg as reg
 cwd = os.getcwd()
 python_exe = sys.executable
 
-hidden_terminal = '\\'.join(python_exe.split('\\')[:-1])+"\\pythonw.exe"
-
 
 key_path = r'Directory\\Background\\shell\\addToPath\\'
 
